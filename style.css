@@ -16,6 +16,22 @@ header {
     border-radius: 6px;
     position: relative;
 }
+footer{
+    background-image: linear-gradient(to bottom, white, rgb(148, 221, 226));
+    box-shadow: 1px 4px 5px gray;
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+footer > img{
+    height: 100%;
+    border-radius: 10px;
+}
 
 .text{
     display: block;
@@ -23,9 +39,7 @@ header {
     margin: 5vh;
     font-size: 30px;      
 }
-h1{
-    color:
-}
+
 
 div.a img{
     border-radius: 10%;
@@ -38,7 +52,6 @@ div.a img{
 }
 
 .logo img {
-    border-radius: 40%;
     margin-top: 5px;
     margin-left: 15px;
     cursor: pointer;
@@ -85,9 +98,12 @@ nav a:hover::after {
     font-size: 4vh;
     color: #ffffff;
 }
+.menu{
+  ;
+}
 .social, .menu{
     padding-top: 10px;
-
+    gap:10px;
 }
 
 .right_content {
@@ -112,11 +128,21 @@ nav a:hover::after {
 
 }
 
-div.a,h3,h2{
+h3  {
     text-align: center;
     margin: 0 auto;
     width: 39vw;
-    height: 10vh;   
+    
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.a{
+  text-align: center;
 }
 
 aside{
@@ -132,4 +158,11 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed
+}
+
+.fav >a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
